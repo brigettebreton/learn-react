@@ -3,12 +3,12 @@
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 //import PackingList from './components/props_item'
-import Counter from './components/queueUpdates'
+import ShoppingCart from './qcomps/shoppingCart'
 
 export default function Home() {
   return (
     <div className={styles.main}>
-        <Counter />
+        <ShoppingCart />
     </div>
   )
 }
